@@ -1,0 +1,22 @@
+<%- include("header/header.ejs") %>
+<center>
+   
+        <fieldset>
+<h1> <u> QUIZ  </u></h1>
+</fieldset>
+<fieldset>
+<form> 
+    <% for(var i=0;i<questions.questions.length;i++){ %>
+    <p><%= questions.questions[i].questions%></p>
+    <input type="radio" name="questions<%=i%>" value="<%= questions.questions[i].opt1 %>">
+    <label><%= questions.questions[i].opt1 %> </label>
+    <br>
+    <input type="radio" name="questions<%=i%>" value="<%= questions.questions[i].opt2 %>">
+    <label><%= questions.questions[i].opt2%></label>
+
+    <% } %>
+    </form>
+    <button><a href="/submit"  class="btn btn-primary btn-block"></a>submit</a></button>
+</fieldset>
+</center>
+<%- include("footer/footer.ejs") %>

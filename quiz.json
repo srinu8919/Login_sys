@@ -1,0 +1,25 @@
+{
+    "questions": [
+      {
+        
+        "questions": "AngularJS is written completely in JavaScript.",
+        "opt1":     "True",
+        "opt2":     "false",
+        "answer":   true
+      },
+      {
+        
+        "questions": "AngularJS 1.0 was released in 2013.",
+        "opt1":     "false",
+        "opt2":     "True",
+        "answer":   false
+      },
+      {
+        
+        "questions": "AngularJS is best defined as a framework.",
+        "opt1":     "True",
+        "opt2":     "false",
+        "answer":   true
+      }
+    ]
+  }
